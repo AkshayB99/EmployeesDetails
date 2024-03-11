@@ -1,0 +1,49 @@
+.main{
+    background-color: #121212;
+    height: 9vh;
+    display: flex;
+    
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.left span{
+ font-size: 65px;
+ margin-left: 80px;
+ color: rgb(155, 154, 154);
+}
+
+.left h3{
+    font-size: 20px;
+    margin-left: 10px;
+    color: rgb(155, 154, 154);
+}
+
+.left p{
+    font-size: 17px;
+    margin: 18px 0 0 60px;
+    color: rgb(155, 154, 154);
+    cursor: pointer;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.right p{
+    font-size: 17px;
+    margin: 18px 0 0 60px;
+    color: rgb(155, 154, 154);
+    cursor: pointer;
+}
+
+.right p:last-child{
+    margin-right: 80px;
+}

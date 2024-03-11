@@ -1,0 +1,10 @@
+.main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main p{
+    margin-top: 17%;
+    font-size: 45px;
+}
